@@ -42,3 +42,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#For setting up users
+gem 'devise', '~> 3.5.1'
+
+gem 'paperclip', '~> 4.3.0'
