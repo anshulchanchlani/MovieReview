@@ -1,6 +1,6 @@
 class Movie < ActiveRecord::Base
   belongs_to :user
-
+  has_many :reviews
   has_attached_file :image, styles: { medium: "400x600#" }
 
   Paperclip.options[:command_path] = 'C:\Program Files\ImageMagick-6.9.1-Q16'
